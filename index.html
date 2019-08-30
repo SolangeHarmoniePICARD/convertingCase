@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Converting Case</title>
+    <meta name="author" lang="fr" content="Solange Harmonie PICARD">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/png" href="coding.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <div class="container min-vh-100 d-flex flex-column align-content-center">
+     <div class="row flex-grow-1 d-flex justify-content-center align-items-center">
+       <div class="col-12 col-md-4">
+         <div class="card center-block">
+           <div class="card-header">
+             <h3 class="text-center text-primary font-weight-bold">Converting Case</h3>
+           </div>
+           <div class="card-body">
+              <p class="card-text text-justify">
+                En JavaScript, les chaines de caractères sont simplement des suites de caractères. Elles peuvent contenir des lettres, des nombres, des signes de ponctuation et des espaces.
+              </p>
+              <p class="card-text text-justify">
+                Ce script permet à l'utilisateur d'entrer une phrase, et transforme tous les caractères de la chaîne en minuscule, sauf la première lettre qui est par convention une majuscule.
+              </p>
+              <p class="card-text text-justify text-info pl-3 pr-3">
+                Exemple : Tapez « cOUCou, jE SuIS UNe suPEr CHAÎne dE CHaraCTèRES ! »
+              </p>
+             <div class="form-group">
+              <form>
+                <input style="width: 100%;" type="text" id="message" placeholder="Tapez votre texte." required>
+                <br><br>
+                <input id="button" type="button" class="btn btn-outline-primary btn-lg btn-block" value="Convertir">
+              </form>
+              <br><br>
+              <p id="result" class="text-success text-center"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
